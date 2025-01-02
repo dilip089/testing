@@ -12,7 +12,7 @@ function App() {
     // </div>
     <BrowserRouter>
       <Routes>
-        <Route path={"/"} element={<APIData />} />
+        <Route path={"/"} element={<UserForm />} />
         <Route path={"/edit/:id"} element={<UserForm />} />
         <Route path={"/table"} element={<TableData />} />
       </Routes>
